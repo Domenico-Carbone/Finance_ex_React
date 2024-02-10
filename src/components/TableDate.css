@@ -1,0 +1,41 @@
+.tableContainer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    color: rgb(16, 180, 117);
+    padding: 20px;
+}
+
+td{
+    padding: 10px;
+}
+
+table{
+    text-align: center;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.noValues{
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .tableContainer {
+        margin-top: 1rem; 
+    }
+
+    th, td {
+        padding: 6px; 
+    }
+
+    table {
+        width: 100%; 
+    }
+}

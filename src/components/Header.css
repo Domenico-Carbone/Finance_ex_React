@@ -1,0 +1,17 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.headerContainer img{
+    width: 10rem;
+}
+
+@media  (max-width: 799px) {
+    .headerContainer img {
+      width: 6rem;
+    }
+}

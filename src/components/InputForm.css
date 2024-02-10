@@ -1,0 +1,56 @@
+.wrapInputs{
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer{
+    margin-top: 20px;
+    justify-content: center;
+    width: 43rem;
+    height: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(12, 160, 104);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.singleField{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.singleField input{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 17rem;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.singleField label{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+@media  (max-width: 799px) {
+    .inputContainer {
+      width: 30rem;
+      grid-template-columns: 100%;
+      flex-wrap: wrap;
+      height: fit-content;
+    }
+}
+
+@media  (max-width: 504px) {
+    .inputContainer {
+      width: 23rem;
+      grid-template-columns: 100%;
+      flex-wrap: wrap;
+      height: fit-content;
+    }
+}
